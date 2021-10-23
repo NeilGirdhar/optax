@@ -166,6 +166,7 @@ Gradient Transforms
     Updates
     zero_nans
     ZeroNansState
+    zero_transform
 
 
 Optax Types
@@ -288,6 +289,8 @@ Optax Transforms and States
 .. autofunction:: zero_nans
 .. autoclass:: ZeroNansState
     :members:
+
+.. autofunction:: zero_transform
 
 
 

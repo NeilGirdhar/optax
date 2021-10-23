@@ -38,6 +38,7 @@ from optax._src.base import Schedule
 from optax._src.base import TransformInitFn
 from optax._src.base import TransformUpdateFn
 from optax._src.base import Updates
+from optax._src.base import zero_transform
 from optax._src.clipping import adaptive_grad_clip
 from optax._src.clipping import AdaptiveGradClipState
 from optax._src.clipping import clip
@@ -276,6 +277,7 @@ __all__ = (
     "yogi",
     "zero_nans",
     "ZeroNansState",
+    "zero_transform",
 )
 
 #  _________________________________________
